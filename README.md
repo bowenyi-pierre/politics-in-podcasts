@@ -25,7 +25,8 @@ As a result, we uploaded the dataset of political podcasts as well as the Reddit
 2. Sklearn for metric calculation and datset split: https://scikit-learn.org/
 3. HuggingFace Transformers: https://huggingface.co/transformers/v3.0.2/index.html
 4. Pandas: https://pandas.pydata.org/
-5. numpy: https://numpy.org/
+5. Numpy: https://numpy.org/
+6. Multiprocessing: https://docs.python.org/3/library/multiprocessing.html
 
 
 ## Credits:
