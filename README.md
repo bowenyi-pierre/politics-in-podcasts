@@ -24,6 +24,7 @@ As a result, we uploaded the dataset of political podcasts as well as the Reddit
 1. PYCLD2 for language detection: https://pypi.org/project/pycld2/
 2. Sklearn for metric calculation and datset split: https://scikit-learn.org/
 3. HuggingFace Transformers: https://huggingface.co/transformers/v3.0.2/index.html
+4. Pandas: https://pandas.pydata.org/
 
 
 ## Credits:
