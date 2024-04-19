@@ -20,7 +20,7 @@ As a result, we uploaded the dataset of political podcasts as well as the Reddit
 4. Our finetuned RoBERTa model are available on Huggingface at https://huggingface.co/bowenyi/political-learning-RoBERTa. Due to the size of model files, they are not uploaded to GitHub, but can be easily retrived on HuggingFace: https://huggingface.co/bowenyi/political-learning-RoBERTa/tree/main.
 
 
-## Used core libraries:
+## Core libraries used:
 1. PYCLD2 for language detection: https://pypi.org/project/pycld2/
 2. Sklearn for metric calculation and datset split: https://scikit-learn.org/
 3. HuggingFace Transformers: https://huggingface.co/transformers/v3.0.2/index.html
