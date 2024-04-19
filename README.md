@@ -4,11 +4,11 @@ Under Code directory, all code files are named by the time they are implemented.
 
 **Here's a high-level overview for the functionality of each file under Code:**
 <br> 01_data_extraction.ipynb: Extract political transcripts from a large raw dataset. We explored three strategies to label political transcripts and chose the last one, which yieled the most data to work on.
-02_preprocessing.ipynb: Detailed preprocessing done on transcripts, including removing non-English and mistranscribed data. 
-03_chunk_and_train.ipynb: 1. Chunk all transcripts into text blocks, including the annotated transcripts, that are easier to train and analyse; 2. Finetuned a MiniLM model solely on annotated transcript chunks; 3. Finetuned a RoBERTa-base on annotated samples as well as labeled Reddit data.
-04_model_training.py, 04_podcast_classifier_distilBERT.ipynb: Code to finetune a distilBERT model. After seeing that the finetuned model didn't perform considerably well even on a clean Reddit dataset, we didn't plan to move on and turned to larger models such as RoBERTa. Please notice that 04_model_training should have been named as RedditDataset because it's more of a dataset class. 
-05_political_analysis_in_wild.ipynb: Answered our research question: what's the prevalence of left/right wing political discussion across podcast categories.
-06_tfidf.ipynb: Answered our research question: what terms receive the highest attention in right/left wing political discussion. 
+<br> 02_preprocessing.ipynb: Detailed preprocessing done on transcripts, including removing non-English and mistranscribed data. 
+<br> 03_chunk_and_train.ipynb: 1. Chunk all transcripts into text blocks, including the annotated transcripts, that are easier to train and analyse; 2. Finetuned a MiniLM model solely on annotated transcript chunks; 3. Finetuned a RoBERTa-base on annotated samples as well as labeled Reddit data.
+<br> 04_model_training.py, 04_podcast_classifier_distilBERT.ipynb: Code to finetune a distilBERT model. After seeing that the finetuned model didn't perform considerably well even on a clean Reddit dataset, we didn't plan to move on and turned to larger models such as RoBERTa. Please notice that 04_model_training should have been named as RedditDataset because it's more of a dataset class. 
+<br> 05_political_analysis_in_wild.ipynb: Answered our research question: what's the prevalence of left/right wing political discussion across podcast categories.
+<br> 06_tfidf.ipynb: Answered our research question: what terms receive the highest attention in right/left wing political discussion. 
 
 
 **Note:** 
