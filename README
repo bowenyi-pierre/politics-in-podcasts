@@ -12,7 +12,7 @@ Here's a high-level overview for the functionality of each file under \code:
 
 
 Note: 
-1. The GitHub commit history may not reflect the task distribution in the group. 
+1. The GitHub commit history may not reflect the task distribution in the group. For example, Divya and Cullen tested their code locally adn sent to Allan, who later pushed to GitHub. 
 2. Due to the size of the raw podcast dataset, we are not able to upload it through GitHub. However, everyone is welcome to contact Benjamin Litterer (blitt@umich.edu) or Bowen Yi (bowenyi@umich.edu) for more details regarding the dataset.
 As a result, we uploaded the dataset of political podcasts as well as the Reddit dataset on Kaggle, which are considerably smaller. 
 3. Because the majority of this project is run on GPU at UMSI, the coding environment might not be compatible to local environment. When testing on local machine, please make sure to change the environment and CUDA variable.
