@@ -1,4 +1,4 @@
-This folder contains code, main datasets, and plots for 484 final project on political leaning detection. 
+This folder contains code, main datasets, and plots for 486 final project on political leaning detection. 
 
 Under \code directory, all code files are named by the time they are implemented. For example, data_extraction was done at the beginning of the semester, so its file name begins with 01. Notably, our final model's code is implemented in 03_chunk_and_train. Files begin with 04 are our distilBERT code, which we didn't decide to use. The rest of analysis are performed in files beginning with 05 and 06.
 
